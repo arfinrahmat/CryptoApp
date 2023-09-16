@@ -1,4 +1,4 @@
-package com.arfinrahmat.cryptoapp
+package com.arfinrahmat.cryptoapp.domain
 
 //Value Object
 data class CryptoFeed(
@@ -19,7 +19,7 @@ data class Raw(
 
 //Value Object
 data class USD(
-    val price: Double,
+    val price: List<Double>,
     val changePctDay: Long
 )
 
